@@ -1,0 +1,84 @@
+---
+
+# **The Maze Project - MVP**  
+### (A 3D Game Created Using SDL2)
+
+---
+
+## **Overview**
+The Maze Project is a 3D maze game developed using SDL2, designed to provide an engaging experience where players navigate through a maze, solve challenges, and improve their speed and accuracy.
+
+This README outlines the Minimum Viable Product (MVP) of the project, detailing the key features, game mechanics, and user story that define the core gameplay.
+
+---
+
+## **Features**
+
+### **Walls**
+- The maze is represented by a 2D array, where each element denotes either a wall or an empty space.
+- SDL2 is used to render walls, which are displayed as rectangles or lines on the screen.
+- The 2D array is responsible for storing the maze structure.
+
+### **Player Orientation**
+- Players control movement and rotation using the arrow keys.
+- The game listens for keyboard input using `SDL_Event`, updating the player’s position and orientation in real time.
+
+### **Movement**
+- Players can move in four directions: forward, backward, left, and right.
+- Player movement is determined by their orientation and the input received from the user.
+  
+### **Collision Detection ("Ouch!")**
+- Collision detection ensures players cannot move through walls.
+- When the player attempts to move into a wall, movement is stopped to prevent overlapping.
+
+### **Maze Data Parser**
+- A parser reads the maze structure from a text file and stores it in a 2D array.
+- This allows for flexible maze design and easy updates to the maze layout.
+
+### **Rendering the Maze**
+- The maze is drawn on the screen using data from the 2D array.
+- Different colors are used to distinguish between walls, ground, and ceiling for a clearer visual experience.
+
+### **Textures**
+- Basic textures are applied to walls using SDL2’s texture rendering functions.
+- A function is implemented to load textures, enhancing the visual appeal of the game environment.
+
+---
+
+## **User Story**
+
+As an end user, I want to play a fun and challenging maze game built with SDL2. Here’s what I expect from the game:
+
+1. **Main Menu**: 
+   - Start a new game, load a saved game, or quit the game from the main menu.
+   - When starting a new game, I want to select the difficulty level, including maze size and number of obstacles.
+
+2. **Smooth Gameplay**: 
+   - The player should move fluidly, without lag or delay, using arrow keys for control.
+   - A timer counts down the time left to complete the maze, and my score reflects progress through the maze.
+
+3. **Interactive Experience**: 
+   - I can collect coins or rewards in the maze, which increases my score.
+   - There are obstacles that slow me down, adding more challenge to the game.
+
+4. **Completion**: 
+   - Upon completing the maze, I want to see a congratulatory message with my final score and time taken to complete the level.
+   - There should be an option to save the game so that I can return to it later.
+
+5. **Audio and Visuals**: 
+   - I want to hear sound effects for actions like collecting coins or hitting obstacles.
+   - Background music should add to the excitement of the game, while high-quality graphics and animations keep me engaged.
+
+---
+
+## **Next Steps**
+- Additional features planned include more complex maze designs, enhanced textures, additional obstacles, and an improved scoring system.
+- Future versions may include multiplayer modes, custom levels, and more immersive soundtracks.
+
+---
+
+This README describes the core components and MVP of The Maze Project. Stay tuned for future updates and enhanced gameplay!
+
+--- 
+
+This refined version is more concise, clearer, and organized, making it easier to understand while covering all the key aspects of the project. Let me know if you'd like to make further adjustments!
