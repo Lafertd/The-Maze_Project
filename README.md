@@ -1,33 +1,36 @@
-# The Maze
+# The Maze Game
 
-The Maze is a 3D Maze game that uses ray casting to render a 2D map into a 3D navigable world!
-
-The Maze was written was written in C ussing SDL2 library. Deveploment was performed using Ubuntu 24.04 - gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0
+**The Maze** is a 3D maze game that employs ray casting to transform a 2D map into a navigable 3D environment. 
+Developed in C using the SDL2 library, the project was built on Ubuntu 24.04 with gcc version 11.3.0.
 
 ### About SDL2 
 
-Simple DirectMedia Layer is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D. It is used by video playback software, emulators, and popular games including Valve's award winning catalog and many Humble Bundle games.
+The Simple DirectMedia Layer (SDL) is a cross-platform library that provides low-level access to audio, input, and graphics via OpenGL and Direct3D. It powers video playback, emulators, and many popular games, making it essential for game development.
 
 ## Installation 
+
 ```sh
-$ git clone https://github.com/Azubuikeleo13/The-Maze-Project.git
+$ git clone https://github.com/Lafertd/The-Maze_Project.git
 ```
 ## Usage 
-* Execute ./maze or type make run 
-* Use up and down arrow keys to move forward and backward (keys w and s serve the same function)
-* Use right and left arrow keys to turn the camera arround (keys d and a serve the same function)
+
+* Run the game using `./maze`.
+* Use the up and down arrow keys to move forward and backward (the `W` and `S` keys perform the same actions).
+* Use the left and right arrow keys to turn the camera (the `A` and `D` keys serve the same purpose).
 
 ## Compilation
+
 ```sh
-$ gcc -Wall -Werror -Wextra -pedantic ./src/*.c -lm -o maze `sdl2-config --cflags` `sdl2-config --libs`;
+gcc -Wall -Werror -Wextra -pedantic *.c -o maze -lm $(sdl2-config --cflags --libs)
 ```
 
 ## Flowchart
-![The Maze Flow Chart](https://i.imgur.com/t0MxNni.png)
 
+[![This-diagram-illustrates-the-flow-of-data-between-different-components-of-the-game.png](https://i.postimg.cc/GhNrprBv/This-diagram-illustrates-the-flow-of-data-between-different-components-of-the-game-including-the-us.png)](https://postimg.cc/56wDPhSt)
 ## Demo
-[![The Maze Demo](https://i.imgur.com/5Ss7s1S.png)](https://www.youtube.com/embed/6T2N8gNUTQ8)
 
-## Author :black_nib:
+[![The Maze Demo]( )
 
-- **Leo Azubuike** <[Zubby](https://github.com/Azubuikeleo13)>
+## Author :Achraf:
+
+- **Achraf Latrache** <[Usher](https://github.com/Lafertd)>
