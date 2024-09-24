@@ -1,4 +1,4 @@
-# The Maze Project - MVP Summary  
+# The Maze Project - MVP
 **(A 3D Game created using SDL2)**
 
 The Maze Project is an engaging 3D maze game created using the SDL2 graphics library. Players navigate through a maze, avoiding walls and obstacles while collecting rewards and tracking their progress. The MVP focuses on core functionalities like maze rendering, player controls, movement mechanics, collision detection, and basic textures.
