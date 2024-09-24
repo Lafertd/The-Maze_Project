@@ -1,50 +1,72 @@
-The Maze Project - MVP Summary
-(A 3D Game created using SDL2)
+Here is a **README**-style file for **The Maze Project - MVP Summary**:
 
-The Maze Project aims to create an engaging 3D maze game using the SDL2 graphics library. Players navigate through a maze, avoiding walls and obstacles while collecting rewards and tracking their progress. The MVP focuses on essential features, including maze rendering, player controls, movement mechanics, collision detection, and basic textures.
+---
 
-Key Features:
-Maze Structure:
-Walls represented by a 2D array and rendered using SDL2.
-Player Controls:
-Movement and rotation controlled by arrow keys, with user input processed via SDL_Event.
-Movement Mechanics:
-Basic functionality for forward, backward, left, and right movement within the maze.
-Collision Detection:
-Prevents the player from passing through walls.
-Maze Data Management:
-Parser to read maze data from a text file and store it in a 2D array.
-Textures:
-Basic textures for walls to enhance visual appeal.
-Progress and Challenges
-Progress Rating: 7/10
+# The Maze Project - MVP Summary  
+**(A 3D Game created using SDL2)**
 
-This week, I made significant strides in the Maze Project. I successfully implemented basic movement mechanics, allowing the player to navigate using the arrow keys. Collision detection is partially functional, ensuring players cannot pass through walls. Additionally, I started developing a maze parser for dynamic maze generation. However, I still face challenges with texture loading and the complete integration of user input handling.
+The Maze Project is an engaging 3D maze game created using the SDL2 graphics library. Players navigate through a maze, avoiding walls and obstacles while collecting rewards and tracking their progress. The MVP focuses on core functionalities like maze rendering, player controls, movement mechanics, collision detection, and basic textures.
 
-Completed Aspects:
+## Key Features:
 
-Basic movement mechanics.
-Initial collision detection.
-Maze data parser.
-Incomplete Aspects:
+- **Maze Structure:**  
+  - Walls are represented by a 2D array and rendered using SDL2.
 
-Wall textures not yet implemented.
-Full integration of user input handling is ongoing.
-Main menu and game save/load functionalities remain to be developed.
-Most Difficult Technical Challenge:
-Implementing accurate collision detection was the most challenging technical issue this week. Initially, a simple bounding box method led to inaccuracies in movement, with players occasionally appearing to collide with walls. To resolve this, I researched various techniques and adopted a more robust collision detection system that considers the dimensions of both the player and walls, recalibrating bounding box checks for accuracy. After extensive testing and debugging, I successfully established a reliable system that prevents the player from passing through walls while maintaining smooth navigation through the maze.
+- **Player Controls:**  
+  - Movement and rotation are controlled by arrow keys, with user input processed via SDL_Event.
 
-Most Difficult Non-Technical Challenge:
-The biggest non-technical challenge I faced was managing my time amid distractions. Balancing coursework and personal commitments made it hard to focus on the project. I often lost track of time due to minor issues and external interruptions. To tackle this, I implemented a structured approach using time-blocking techniques, dedicating specific periods for focused work. By disabling non-essential notifications and creating a distraction-free workspace, I improved my concentration and made more consistent progress.
+- **Movement Mechanics:**  
+  - Players can move forward, backward, left, and right within the maze.
 
-Screenshots
-Screenshot 1:
-Description of what the screenshot shows (e.g., player navigating the maze)
-https://i.postimg.cc/RVkMC982/1.png
+- **Collision Detection:**  
+  - Prevents players from passing through walls by detecting and blocking collisions.
 
+- **Maze Data Management:**  
+  - A parser reads maze data from a text file and stores it in a 2D array.
 
-Screenshot 2:
-Description of what the screenshot shows (e.g., collision detection in action)
-https://i.postimg.cc/GmvbHVnt/2.png
+- **Textures:**  
+  - Basic wall textures are rendered to enhance visual appeal.
 
-Let me know if you need further assistance.
+---
+
+## Progress and Challenges
+
+### Progress Rating: **7/10**
+
+This week has seen significant progress in The Maze Project. Basic movement mechanics are functional, allowing smooth player navigation using arrow keys. Collision detection is partially implemented, ensuring players cannot move through walls. Development of the maze parser for dynamic maze generation is also underway. However, challenges remain with loading textures and integrating full user input functionality.
+
+### Completed Aspects:
+- Basic player movement.
+- Initial collision detection.
+- Maze data parser.
+
+### Incomplete Aspects:
+- Wall textures are not yet implemented.
+- Full user input handling is still in progress.
+- Main menu and save/load functionalities need to be developed.
+
+---
+
+### Challenges
+
+#### Most Difficult Technical Challenge:
+The most difficult technical challenge this week was implementing accurate collision detection. Initially, a simple bounding box collision method led to inconsistencies, with the player occasionally colliding with walls incorrectly. To resolve this, I adopted a more robust system that accounts for the dimensions of both the player and walls, recalibrating bounding boxes. After thorough testing and debugging, I successfully implemented a system that accurately detects collisions while allowing smooth player movement.
+
+#### Most Difficult Non-Technical Challenge:
+The primary non-technical challenge has been time management. Balancing coursework, personal commitments, and project development led to frequent distractions. I often lost track of time when troubleshooting minor coding issues. To address this, I implemented time-blocking techniques, dedicating specific periods to focused work and eliminating distractions by disabling notifications. This improved my overall concentration and productivity.
+
+---
+
+## Screenshots
+
+**Screenshot 1:**  
+Player navigating the maze.  
+![Player Navigating Maze](https://i.postimg.cc/RVkMC982/1.png)
+
+**Screenshot 2:**  
+Collision detection in action.  
+![Collision Detection](https://i.postimg.cc/GmvbHVnt/2.png)
+
+---
+
+Let me know if you need further assistance or improvements!
