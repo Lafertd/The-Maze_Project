@@ -1,7 +1,3 @@
-Here is a **README**-style file for **The Maze Project - MVP Summary**:
-
----
-
 # The Maze Project - MVP Summary  
 **(A 3D Game created using SDL2)**
 
